@@ -3,6 +3,7 @@ import { TextInput, View, StyleSheet, Alert } from "react-native";
 
 import PrimaryButton from "../components/ui/PrimaryButton";
 import Colors from '../constants/colors'
+
 function StartGameScreen({onPickNumber}) {
   const [enteredNumber, setEnteredNumber] = useState("");
 
